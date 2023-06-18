@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.table td,
+.table th {
+  padding: 5px 15px;
+  text-align: left;
+}
+
+.table,
+table th,
+table td {
+  border: 1px solid #000;
+}
+
+.table th {
+  position: relative;
+}
+
+.resizer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 5px;
+  cursor: col-resize;
+  user-select: none;
+}
