@@ -11,11 +11,18 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="topnav mr-3 blue-500 row" id="myTopnav">
-      <a href="#home" class="active">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about" class="split">About</a>
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="nav active">Home</a>
+      <a href="#news" class="nav">News</a>
+      <a href="#contact" class="nav">Contact</a>
+      <a href="#" class="split">
+        <div class="search-container">
+          <form action="#">
+            <input type="text" placeholder="Search.." name="search" />
+            <button type="submit"><i class="bi bi-search"></i></button>
+          </form>
+        </div>
+      </a>
       <a href="javascript:void(0);" class="icon" id="myBtn">
         <i class="bi bi-list"></i>
       </a>
